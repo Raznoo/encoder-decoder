@@ -13,7 +13,11 @@ Eventually I'll add decoding functionality
 ```bash
 git clone https://github.com/Raznoo/encoder-decoder.git
 cd encoder-decoder
+
+# Build the project
 cargo build --release
+
+# The executable will be located in target/release/
 ```
 
 ### Encoding
