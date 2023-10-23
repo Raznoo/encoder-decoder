@@ -1,23 +1,18 @@
 # encoder-decoder
 
-A brief description of your CLI tool. What it does, why it exists, and any other important context.
+This is my tool for XOR encoding msfvenom payloads for practice in the OSEP. The tool either accepts a premade key or randomly generates (and outputs) a key of equal size to the inputted payload.
+
+Eventually I'll add decoding functionality
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Options](#options)
-- [License](#license)
 
 ## Installation
 
 **From Source**:
 
 ```bash
-git clone https://github.com/yourusername/CLI-ToolName.git
-cd CLI-ToolName
+git clone https://github.com/Raznoo/encoder-decoder.git
+cd encoder-decoder
 cargo build --release
 ```
 
