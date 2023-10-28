@@ -2,6 +2,7 @@ use clap::Parser;
 
 mod args;
 mod encode;
+mod output_formatter;
 
 use args::{CmdArgs, ToolMode};
 use encode::handle_encode;
